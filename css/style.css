@@ -1,0 +1,41 @@
+:root {
+	--color-1-type: cyan;
+	--color-2-type: green;
+	--color-3-type: pink;
+}
+
+.container{
+	background-color: var(--color-3-type);
+	width: 100%;
+	height: 98vh;
+	overflow: hidden;
+	vertical-align: center;
+	text-align: center;
+}
+.cajonInfo {
+	background-color: var(--color-2-type);
+	width: 90%;
+	margin: auto;
+	font-size: 1em;
+}
+.cajon{
+	margin: auto;
+	background-color: var(--color-1-type);
+	margin-top: 15%;
+	width: 200px;
+	height: 30vh;
+	overflow: hidden;
+	border-radius: 25px 25px;
+	transition: width 2s,height,2s;
+}
+.cajonImagen img{
+	width: 20%;
+	height: 20%;
+	border-radius: 25px 25px;
+}
+.cajon:hover{
+	color: brown;
+	width: 800px;
+	height:90vh;
+	background-color: var(--color-2-type);
+	transition: width,2s height,2s;
